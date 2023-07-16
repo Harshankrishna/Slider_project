@@ -1,39 +1,43 @@
 const people = [
   {
     id: 1,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
-    name: "maria ferguson",
-    title: "office manager",
+    image: "../images/Bill_Gates.jpg",
+    name: "Bill Gates",
+    title: "Microsoft Founder",
     quote:
-      "Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.",
+      "“As we look ahead into the next century, leaders will be those who empower others.”",
   },
   {
     id: 2,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
-    name: "john doe",
-    title: "regular guy",
+    image: "../images/elon musk.jpeg",
+    name: "Elon Musk",
+    title: "Testla Founder",
     quote:
-      "Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.",
+      "“Never. I don’t ever give up. I’d have to be dead or completely incapacitated. For my part, I will never give up, and I mean never.”",
   },
   {
     id: 3,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg",
-    name: "peter smith",
-    title: "product designer",
+    image: "../images/Mark_Zuckerberg.jpg",
+    name: "Mark Zuckerberg",
+    title: "Facebook Founder",
     quote:
-      "Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.",
+      "The biggest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks.",
   },
   {
     id: 4,
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
-    name: "susan andersen",
-    title: "the boss",
+    image: "../images/Steve_Jobs.jpg",
+    name: "Steve Jobs",
+    title: "Apple Founder",
     quote:
-      "Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ",
+      "“Your time is limited, so don't waste it living someone else's life.”",
+  },
+  {
+    id: 5,
+    image: "../images/sundar.jpeg",
+    name: "Sundar Pichai",
+    title: "CEO of Google",
+    quote:
+      "“A person who is happy is not because everything is right in his life, he is happy because his attitude towards everything in his life is right.”",
   },
 ];
 
