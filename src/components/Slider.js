@@ -22,7 +22,7 @@ const Slider = () => {
       <section className="section">
         <div className="title">
           <h2>
-            <span>/</span>reviews
+            <span>/</span>Words of Legends
           </h2>
         </div>
         <div className="section-center">
