@@ -1,15 +1,21 @@
+import img1 from "../images/Bill_Gates.jpg";
+import img2 from "../images/elon musk.jpeg";
+import img3 from "../images/Mark_Zuckerberg.jpg";
+import img4 from "../images/Steve_Jobs.jpg";
+import img5 from "../images/sundar.jpeg";
+
 const people = [
   {
     id: 1,
-    image: "../images/Bill_Gates.jpg",
+    image: `${img1}`,
     name: "Bill Gates",
     title: "Microsoft Founder",
     quote:
-      "“As we look ahead into the next century, leaders will be those who empower others.”",
+      "“Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important.”",
   },
   {
     id: 2,
-    image: "../images/elon musk.jpeg",
+    image: `${img2}`,
     name: "Elon Musk",
     title: "Testla Founder",
     quote:
@@ -17,7 +23,7 @@ const people = [
   },
   {
     id: 3,
-    image: "../images/Mark_Zuckerberg.jpg",
+    image: `${img3}`,
     name: "Mark Zuckerberg",
     title: "Facebook Founder",
     quote:
@@ -25,15 +31,15 @@ const people = [
   },
   {
     id: 4,
-    image: "../images/Steve_Jobs.jpg",
+    image: `${img4}`,
     name: "Steve Jobs",
     title: "Apple Founder",
     quote:
-      "“Your time is limited, so don't waste it living someone else's life.”",
+      "“My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time.”",
   },
   {
     id: 5,
-    image: "../images/sundar.jpeg",
+    image: `${img5}`,
     name: "Sundar Pichai",
     title: "CEO of Google",
     quote:
