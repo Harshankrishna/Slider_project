@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import People from "./Data";
 
 const Slider = () => {
   const [state, setState] = useState(0);
   const { id, name, image, title, quote } = People[state];
-  //   const playSlider = (slide) => {};
+
   const Next = () => {
     setState((state + 1) % People.length);
   };
@@ -17,6 +17,15 @@ const Slider = () => {
     }
   };
 
+  useEffect(() => {
+    const sliderInterval = setInterval(() => {
+      setState((Prev) => (Prev === People.length - 1 ? 0 : Prev + 1));
+    }, 5000);
+    return () => {
+      clearInterval(sliderInterval);
+    };
+  }, []);
+
   return (
     <>
       <section className="section">
@@ -26,7 +35,7 @@ const Slider = () => {
           </h2>
         </div>
         <div className="section-center">
-          <div key={id}>
+          <div key={id} className="autoslider-reviews">
             <img src={image} alt={name} className="person-img" />
             <h4>{name}</h4>
             <p className="title">{title}</p>
